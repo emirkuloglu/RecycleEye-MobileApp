@@ -29,54 +29,23 @@ RecycleEye, YOLOv8 derin öğrenme modeli kullanarak atık türlerini otomatik o
 ├── recycleye_app/              # 📱 Ana Uygulama
 │   ├── backend/                # FastAPI Backend
 │   │   └── main.py            # ONNX Runtime backend (aktif)
+│   │
 │   ├── mobile/                 # React Native Mobil
 │   │   ├── App.js             # Ana uygulama bileşeni
 │   │   ├── app.json           # Expo yapılandırması
 │   │   └── package.json       # Node.js bağımlılıkları
-│
-├── recycleye_model/            # 🧠 Model Dosyaları
-│   └── run/
-│       ├── weights/
-│       │   ├── best.onnx      # ONNX modeli (aktif)
-│       │   ├── best.pt        # PyTorch modeli
-│       │   └── last.pt        # Son checkpoint
-│       ├── args.yaml          # Eğitim parametreleri
-│       └── results.csv        # Eğitim sonuçları
-│
-├── sunum/                      # 📊 Sunum ve Grafikler
-│   ├── images/
-│   └── recycleye_sunum.pptx
-│
-└── README.md                   # Bu dosya
+│   │
+│   │── recycleye_model/            # 🧠 Model Dosyaları
+│   │       └── run/
+│   │       ├── weights/
+│   │       │   ├── best.onnx      # ONNX modeli (aktif)
+│   │       │   ├── best.pt        # PyTorch modeli
+│   │       │   └── last.pt        # Son checkpoint
+│   │       ├── args.yaml          # Eğitim parametreleri
+│   │       └── results.csv        # Eğitim sonuçları
+│   │
+│   └── README.md                   # Bu dosya
 ```
-
----
-
-## 🚀 Hızlı Başlangıç
-
-### 1️⃣ Backend'i Başlat (ONNX)
-
-# Backend klasörüne git
-cd recycleye_app/backend
-
-# Sanal ortamı aktif et (Mac/Linux için)
-source venv/bin/activate
-
-# Backend uygulamasını başlat (ONNX sürümü için)
-python main.py
-
-### 2️⃣ Mobil Uygulamayı Başlat
-
-# Mobile klasörüne git
-cd recycleye_app/mobile
-# Uygulamayı başlat
-npm start
-
-Alternatif olarak: npx expo start da kullanılabilir.
-
-### 3️⃣ Test Et
-
-**Expo Go** uygulamasını telefonunuza indirin ve QR kodu okutun.
 
 ---
 
@@ -172,24 +141,3 @@ expo-camera
 expo-image-picker
 expo-linear-gradient
 ```
-
----
-
-## 🎓 Proje Bilgileri
-
-- **Ders:** YAM435 Makine Görmesi
-- **Model:** YOLOv8 (Ultralytics)
-- **Dataset:** Roboflow (RecycleEye)
-- **Tarih:** Aralık 2025
-
----
-
-## 📄 Lisans
-
-Bu proje eğitim amaçlı geliştirilmiştir.
-
----
-
-<p align="center">
-  Made with 💚 for a cleaner planet
-</p>
