@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/logo2.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.emirkuloglu.recycleye"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fe1e658e-dae0-42e3-9f42-933b76b11a0a"
+      }
     }
   }
 }
