@@ -49,34 +49,6 @@ RecycleEye, YOLOv8 derin öğrenme modeli kullanarak atık türlerini otomatik o
 
 ---
 
-# 🚀 Hızlı Başlangıç
-
-### 1️⃣ Backend'i Başlat (ONNX)
-
-## Backend klasörüne git
-cd recycleye_app/backend
-
-## Sanal ortamı aktif et (Mac/Linux için)
-source venv/bin/activate
-
-## Backend uygulamasını başlat (ONNX sürümü için)
-python main.py
-
-### 2️⃣ Mobil Uygulamayı Başlat
-
-## Mobile klasörüne git
-cd recycleye_app/mobile
-## Uygulamayı başlat
-npm start
-
-Alternatif olarak: npx expo start da kullanılabilir.
-
-### 3️⃣ Test Et
-
-**Expo Go** uygulamasını telefonunuza indirin ve QR kodu okutun.
-
----
-
 ## 🔧 API Endpoint'leri
 
 | Method | Endpoint | Açıklama |
